@@ -670,3 +670,5 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.main.navigation {
+  background-color: blue; }
