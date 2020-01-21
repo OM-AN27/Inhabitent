@@ -670,5 +670,34 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
-.main.navigation {
-  background-color: blue; }
+p {
+  color: white; }
+
+a {
+  text-decoration: none; }
+
+i {
+  color: white;
+  display: inline-block; }
+
+.footer-container {
+  background-image: url("../../images/dark-wood.png");
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 100%;
+  background-color: grey; }
+  .footer-container .info-title {
+    text-transform: uppercase;
+    color: #d99054; }
+
+ul li {
+  display: inline-block;
+  padding: 10px; }
+
+.nav-container {
+  background-color: grey;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
+
+body {
+  background-color: black; }

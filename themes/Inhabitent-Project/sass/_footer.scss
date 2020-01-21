@@ -1,0 +1,28 @@
+
+   p {
+    color:white;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    color: white;
+    display: inline-block;
+}
+
+.footer-container {
+    background-image: url('../../images/dark-wood.png');
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+	height: 100%;
+    background-color: grey;
+    
+    .info-title {
+        text-transform: uppercase;
+        color: #d99054;
+     
+    }
+}
+

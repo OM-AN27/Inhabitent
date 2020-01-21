@@ -12,20 +12,23 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="profile" href="http://gmpg.org/xfn/11">
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<?php wp_head(); ?>
 	</head>
 
-
-			<div class = 'header-container'>
-			<img src='./images/inhabitent-logo-full.svg' alt='site-logo'>
-			<ul>
+	<nav class='nav-container'>
+		<img src='../.,/images/inhabitent-logo-full.svg'>
+		
+		<ul>
 			<li>journal</li>
 			<li>about</li>
 			<li>find us</li>
-			</ul>
-			
-			</div>
+		</ul>
+
+
+
+	</nav>
 
 
 
