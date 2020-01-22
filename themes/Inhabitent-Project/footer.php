@@ -14,7 +14,7 @@
 					<div>
 					<h1 class='info-title footer-contact'>contact info</h1>
 					<a href="info@inhabitent.com"><p class='footer-contact'><i class="fa fa-envelope">info@inhabitent.com</i></p></a>
-					<p class='footer-contact'>778-456-7891</p>
+					<p class='footer-contact'><i class="fa fa-phone">778-456-7891</i></p>
 					<i class="fa fa-facebook-square"></i> 
 					<i class="fa fa-twitter-square"></i>
 					 <i class="fa fa-google-plus-square"></i>

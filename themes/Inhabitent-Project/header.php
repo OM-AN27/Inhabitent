@@ -18,12 +18,12 @@
 	</head>
 
 	<nav class='nav-container'>
-		<img src='../.,/images/inhabitent-logo-full.svg'>
+		<img src='../../images/logos/inhabitent-logo-tent.svg' alt='tent-logo'>
 		
 		<ul>
-			<li>journal</li>
-			<li>about</li>
-			<li>find us</li>
+			<a class='journal.php'><li>journal</li></a>
+			<a class='page-about.php'><li>about</li></a>
+			<a class='find-us.php'><li>find us</li></a>
 		</ul>
 
 
