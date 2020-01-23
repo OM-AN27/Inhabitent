@@ -1,15 +1,12 @@
 
-   p {
-    color:white;
-}
 
 a {
+    color:white;
     text-decoration: none;
 }
 
 i {
     color: white;
-    display: inline-block;
 }
 
 .footer-container {
@@ -17,12 +14,33 @@ i {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 	height: 100%;
-    background-color: grey;
     
     .info-title {
+        margin:2rem;
         text-transform: uppercase;
         color: #d99054;
      
     }
+
+    .footer-hours {
+        margin:2rem;
+        color:white;
+    }
+
+    .footer-contact {
+        margin: 2rem;
+    }
+
+
+    .copyright-text {
+        color: #a1a1a1;
+    }
+
+    .logo-footer {
+        margin-top:3rem;
+        margin-right:3rem;
+    }
 }
+
+
 

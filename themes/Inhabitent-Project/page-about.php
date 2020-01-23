@@ -7,18 +7,23 @@
 
 get_header(); ?>
 
-		<?php
-   					$args = array( 'post_type' => 'post', 'order' => 'ASC' );
-  					 $product_posts = get_posts( $args ); // returns an array of posts
-		?>
-		<?php foreach ( $product_posts as $post ) : setup_postdata( $post ); ?>
-   					<h1><?php the_title(); ?></h1>
-		<?php endforeach; wp_reset_postdata(); ?>
+<section class='about-hero'>
+    <h1 class ='about-title'>about</h1>
+</section>
+
+<?php while ( have_posts() ) : the_post(); ?>
+
+<?php get_template_part( 'template-parts/content', 'page' ); ?>
+
+<?php endwhile; // End of the loop. ?>
+        
+
+
 	
 
 
 
-<?php get_sidebar(); ?>
+
 <?php get_footer(); ?>
 
 

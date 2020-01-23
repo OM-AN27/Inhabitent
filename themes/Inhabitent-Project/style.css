@@ -670,34 +670,240 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
-p {
-  color: white; }
-
 a {
+  color: white;
   text-decoration: none; }
 
 i {
-  color: white;
-  display: inline-block; }
+  color: white; }
 
 .footer-container {
   background-image: url("../../images/dark-wood.png");
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  height: 100%;
-  background-color: grey; }
+  height: 100%; }
   .footer-container .info-title {
+    margin: 2rem;
     text-transform: uppercase;
     color: #d99054; }
+  .footer-container .footer-hours {
+    margin: 2rem;
+    color: white; }
+  .footer-container .footer-contact {
+    margin: 2rem; }
+  .footer-container .copyright-text {
+    color: #a1a1a1; }
+  .footer-container .logo-footer {
+    margin-top: 3rem;
+    margin-right: 3rem; }
 
 ul li {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
   display: inline-block;
   padding: 10px; }
 
 .nav-container {
-  background-color: grey;
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
   display: grid;
   grid-template-columns: repeat(2, 1fr); }
+  .nav-container li {
+    color: #248A83; }
+  .nav-container .nav-list {
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    margin-right: 4rem;
+    margin-top: 2rem; }
+  .nav-container li:hover {
+    cursor: pointer; }
+  .nav-container .nav-image {
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 6rem; }
+    .nav-container .nav-image .tent-logo {
+      color: #248A83;
+      width: 5rem; }
+
+.nav-color {
+  color: white;
+  position: absolute; }
+  .nav-color li {
+    color: white; }
+
+.hero-image {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), #969696 url("../../images/about-hero.jpg") no-repeat top;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), #969696 url("../../images/about-hero.jpg") no-repeat top;
+  background-size: cover; }
+
+html {
+  font-size: 62.5%; }
 
 body {
-  background-color: black; }
+  background-color: #fff;
+  font-size: 1.6rem; }
+
+a {
+  color: white;
+  text-decoration: none; }
+
+.hero-image {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), #969696 url("../../images/home-hero.jpg") no-repeat top;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), #969696 url("../../images/home-hero.jpg") no-repeat top;
+  background-size: cover; }
+
+.shop-title-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .shop-title-container .content-title {
+    margin: 2rem;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase; }
+
+.items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  padding: 0; }
+  .items li {
+    border: 1px solid #a1a1a1;
+    border-top: 4px solid #a1a1a1;
+    margin: 2rem; }
+    .items li:hover {
+      border-color: #d99054; }
+  .items .item-images {
+    width: 70px;
+    margin-left: 9rem; }
+  .items .item-description {
+    font-family: "Merriweather", Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    color: black; }
+  .items .item-name-button {
+    text-align: center;
+    color: white;
+    padding: 5px;
+    background-color: #248A83; }
+    .items .item-name-button:hover {
+      background-color: #1f726c; }
+
+.inhabitent-journal-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase; }
+
+.journal-posts a {
+  text-decoration: none;
+  color: #248A83; }
+
+.journal-posts ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 3rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.journal-posts li {
+  margin: 20px;
+  border: 1px solid #a1a1a1; }
+
+.journal-posts span {
+  font-size: 1.1rem; }
+
+.journal-posts .entry-image {
+  width: 30rem; }
+
+.journal-posts .entry-title {
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-size: 1.3rem; }
+
+.journal-posts .read-button {
+  padding: 8px;
+  color: black;
+  border: 1px solid black; }
+  .journal-posts .read-button:hover {
+    color: white;
+    background-color: #248A83; }
+
+.about-hero {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), #969696 url("../../images/about-hero.jpg") no-repeat top;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), #969696 url("../../images/about-hero.jpg") no-repeat top;
+  background-size: cover, cover;
+  background-position: bottom; }
+  .about-hero .about-title {
+    color: white;
+    font-size: 5rem;
+    font-family: 'Open Sans',Arial, Helvetica, sans-serif;
+    text-transform: uppercase; }
+
+.entry-content {
+  margin: 10rem;
+  font-size: 2rem;
+  font-family: 'Open Sans',Arial, Helvetica, sans-serif; }
+  .entry-content h1 {
+    font-size: 5rem;
+    text-align: center; }
+  .entry-content h2 {
+    font-size: 5rem;
+    text-align: center; }
+
+iframe {
+  width: 80%;
+  height: 10%; }

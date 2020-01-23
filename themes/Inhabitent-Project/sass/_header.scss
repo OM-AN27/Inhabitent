@@ -1,11 +1,64 @@
 
 ul li {
+    font-family: 'Open Sans', Arial, Helvetica, $font__main;
+    font-size: 1.5rem;
+    text-transform: uppercase;
     display:inline-block;
     padding:10px;
 }
 
+
 .nav-container {
-    background-color: grey;
+    width: 100%;
+    position:sticky;
+    top:0;
+    z-index: 1;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+
+  
+    
+    li {
+        color: #248A83;
+    }
+    
+    .nav-list {
+        z-index: 1;
+        display: flex;
+        justify-content: end;
+        margin-right: 4rem;
+        margin-top: 2rem;
+        
+    
+    }
+
+    li:hover {
+        cursor: pointer;
+    
+    }
+
+    .nav-image {
+        z-index: 1;
+        display:flex;
+        align-items: center;
+        margin-left: 6rem;
+        
+        
+        .tent-logo {
+            color: #248A83;
+            width: 5rem;
+        }
+    }
+    
+}
+
+.nav-color {
+    color:white;
+    position: absolute;
+
+    li {
+        color:white;
+    }
+
+
 }
