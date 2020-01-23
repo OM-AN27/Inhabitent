@@ -78,7 +78,7 @@ body {
 }
 
 a {
-	color: white;
+	color: $color__my-text;
 	text-decoration: none;
 
 }
@@ -100,7 +100,7 @@ a {
 
 	.content-title {
 	margin: 2rem;
-	font-family: 'Open Sans', Arial, Helvetica, $font__main;
+	font-family: $font__my-main;
 	font-size: 3rem;
 	text-transform: uppercase;
 	}
@@ -116,8 +116,8 @@ a {
 
 	li {
 
-		border: 1px solid #a1a1a1;
-		border-top: 4px solid #a1a1a1;
+		border: 1px solid $color__my-border;
+		border-top: 4px solid $color__my-border;
 		margin:2rem;
 		&:hover {
 			border-color:#d99054;
@@ -141,9 +141,9 @@ a {
 
 	.item-name-button {
 		text-align: center;
-		color:white;
+		color:$color__my-text;
 		padding:5px;
-		background-color: #248A83;
+		background-color: $color__my-main-text;
 
 		&:hover {
 			background-color: rgb(31, 114, 108);
@@ -155,7 +155,7 @@ a {
 .inhabitent-journal-title {
 	display: flex;
 	justify-content: center;
-	font-family: 'Open Sans', Arial, Helvetica, $font__main;
+	font-family: $font__my-main;
 	font-size: 3rem;
 	text-transform: uppercase;
 
@@ -166,7 +166,7 @@ a {
 
 	a {
 		text-decoration: none;
-		color: #248A83;
+		color: $color__my-main-text;
 	}
 
 	ul {
@@ -179,7 +179,7 @@ a {
 	
 	li {
 		margin:20px;
-		border: 1px solid #a1a1a1;
+		border: 1px solid $color__my-border;
 	}
 
 	span {
@@ -191,7 +191,7 @@ a {
 	}
 	
 	.entry-title {
-		font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+		font-family: $font__my-main;
 		font-size: 1.3rem;
 
 	}
@@ -202,8 +202,8 @@ a {
 		border: 1px solid black;
 
 		&:hover {
-			color: white;
-			background-color: #248A83;
+			color: $color__my-text;
+			background-color: $color__my-main-text;
 		}
 	}
 
@@ -222,9 +222,9 @@ a {
 	background-position: bottom;
 
 	.about-title {
-		color:white;
+		color:$color__my-text;
 		font-size: 5rem;
-		font-family: 'Open Sans',Arial, Helvetica, sans-serif;
+		font-family:$font__my-main;
 		text-transform: uppercase;
 
 	}
@@ -234,7 +234,7 @@ a {
 .entry-content {
 	margin:10rem;
 	font-size: 2rem;
-	font-family: 'Open Sans',Arial, Helvetica, sans-serif;
+	font-family:$font__my-main;
 
 	h1 {
 		font-size: 5rem;
@@ -263,6 +263,12 @@ iframe {
 }
 
 // JOURNAL 
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	
+}
 
 
 

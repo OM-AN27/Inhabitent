@@ -1,12 +1,12 @@
 
 
 a {
-    color:white;
+    color:$color__my-tex;
     text-decoration: none;
 }
 
 i {
-    color: white;
+    color: $color__my-tex;
 }
 
 .footer-container {
@@ -24,7 +24,7 @@ i {
 
     .footer-hours {
         margin:2rem;
-        color:white;
+        color:$color__my-tex;
     }
 
     .footer-contact {
@@ -33,7 +33,7 @@ i {
 
 
     .copyright-text {
-        color: #a1a1a1;
+        color: $color__my-border;
     }
 
     .logo-footer {

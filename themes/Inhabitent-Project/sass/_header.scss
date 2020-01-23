@@ -1,6 +1,6 @@
 
 ul li {
-    font-family: 'Open Sans', Arial, Helvetica, $font__main;
+    font-family: $font__my-main;
     font-size: 1.5rem;
     text-transform: uppercase;
     display:inline-block;
@@ -19,7 +19,7 @@ ul li {
   
     
     li {
-        color: #248A83;
+        color: $color__my-main-text;
     }
     
     .nav-list {
@@ -45,7 +45,7 @@ ul li {
         
         
         .tent-logo {
-            color: #248A83;
+            color: $color__my-main-text;
             width: 5rem;
         }
     }
@@ -53,11 +53,11 @@ ul li {
 }
 
 .nav-color {
-    color:white;
+    color:$color__my-text;
     position: absolute;
 
     li {
-        color:white;
+        color:$color__my-text;
     }
 
 
