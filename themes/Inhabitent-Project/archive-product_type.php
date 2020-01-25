@@ -6,46 +6,53 @@
  * @package RED_Starter_Theme
  */
 
+
+
 get_header(); ?>
 
-<hr/>
-
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+		<main id="main" class="products-site-main" role="main">
 
 		<?php $wpb_all_query = new WP_Query(array('post_type'=>'product_type', 'post_status'=>'publish', 'posts_per_page'=>-1)); ?>
 
 		<?php if ( $wpb_all_query->have_posts() ) : ?>
 
 			<header class="page-header">
-				<!-- <?php
-					the_archive_title( '<h1 class="page-title">', '</h1>' );
-					the_archive_description( '<div class="taxonomy-description">', '</div>' );
-				?> -->
-				<h1>SHOP STUFF</h1>
+				 <?php
+					// the_archive_title( '<h1 class="page-title">', '</h1>' );
+					// the_archive_description( '<div class="product-description">', '</div>' );
+					
+				?> 
+				<h1 class='shop-page-title' style='text-align: center; font-family: "Open Sans" , arial;'>SHOP STUFF</h1>
+				<hr>
 			</header><!-- .page-header -->
 
+         
 			<?php /* Start the Loop */ ?>
-			<div class="container">
+			<div class="products-container">
 				<div class="product-grid">
-					<?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
+		<ul style='padding: 0; margin: 0;'>
+						<li>
+						<?php while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); ?>
 
 						<?php
-							get_template_part( 'template-parts/content-product' );
+							get_template_part( 'template-parts/content' );
 						?>
 
-					<?php endwhile; ?>
+						<?php endwhile; ?>
+						</li>
 				</div>
 			</div>
 
-		<?php else : ?>
+							<?php else : ?>
 
 			<?php get_template_part( 'template-parts/content', 'none' ); ?>
 
-		<?php endif; ?>
+			<?php endif; ?>
+		</ul>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
+
 <?php get_footer(); ?>

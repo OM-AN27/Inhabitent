@@ -73,6 +73,7 @@ html {
 }
 
 body {
+	// max-width: 1120px;
 	background-color:$color__background-body;
 	font-size: 1.6rem;
 }
@@ -93,6 +94,17 @@ a {
 }
 
 
+
+
+.products-container {
+	display: flex;
+	justify-content: center;
+
+	li {
+		border: 
+	}
+
+}
 
 .shop-title-container {
 	display: flex;
@@ -251,8 +263,6 @@ a {
 // FIND US 
 
 
-
-
 	
 iframe {
 
@@ -262,13 +272,13 @@ iframe {
 
 }
 
-// JOURNAL 
+//SHOP
 
-.grid-container {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	
-}
+
+
+
+
+
 
 
 

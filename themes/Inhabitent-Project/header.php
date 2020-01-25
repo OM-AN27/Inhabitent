@@ -14,9 +14,8 @@
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400|Open+Sans:300,400&display=swap" rel="stylesheet"> 
-
+		<?php wp_head(); ?>
 	</head>
-	<?php wp_head(); ?>
 
 	<nav class='nav-container <?php if(is_front_page() || is_page('about')) {
 
@@ -27,7 +26,7 @@
 </div>
 <div class='nav-list'>
 		<ul>
-			<a href='http://localhost/wordpress/shop/'><li>shop</li></a>
+			<a href='http://localhost/wordpress/product_type/'><li>shop</li></a>
 			<a href='http://localhost/wordpress/journal/'><li>journal</li></a>
 			<a href='http://localhost/wordpress/about/'><li>about</li></a>
 			<a href='http://localhost/wordpress/fin-us/'><li>find us</li></a>

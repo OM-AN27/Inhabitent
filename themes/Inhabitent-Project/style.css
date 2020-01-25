@@ -671,11 +671,11 @@ object {
 --------------------------------------------------------------*/
 /* Front page */
 a {
-  color: white;
+  color: #ffff;
   text-decoration: none; }
 
 i {
-  color: white; }
+  color: #ffff; }
 
 .footer-container {
   background-image: url("../../images/dark-wood.png");
@@ -688,7 +688,7 @@ i {
     color: #d99054; }
   .footer-container .footer-hours {
     margin: 2rem;
-    color: white; }
+    color: #ffff; }
   .footer-container .footer-contact {
     margin: 2rem; }
   .footer-container .copyright-text {
@@ -725,7 +725,8 @@ ul li {
     margin-right: 4rem;
     margin-top: 2rem; }
   .nav-container li:hover {
-    cursor: pointer; }
+    cursor: pointer;
+    color: #f0e4d1; }
   .nav-container .nav-image {
     z-index: 1;
     display: -webkit-box;
@@ -740,10 +741,10 @@ ul li {
       width: 5rem; }
 
 .nav-color {
-  color: white;
+  color: #ffff;
   position: absolute; }
   .nav-color li {
-    color: white; }
+    color: #ffff; }
 
 .hero-image {
   height: 100vh;
@@ -765,7 +766,7 @@ body {
   font-size: 1.6rem; }
 
 a {
-  color: white;
+  color: #ffff;
   text-decoration: none; }
 
 .hero-image {
@@ -779,6 +780,14 @@ a {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), #969696 url("../../images/home-hero.jpg") no-repeat top;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), #969696 url("../../images/home-hero.jpg") no-repeat top;
   background-size: cover; }
+
+.products-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 .shop-title-container {
   display: -webkit-box;
@@ -818,7 +827,7 @@ a {
     color: black; }
   .items .item-name-button {
     text-align: center;
-    color: white;
+    color: #ffff;
     padding: 5px;
     background-color: #248A83; }
     .items .item-name-button:hover {
@@ -861,7 +870,7 @@ a {
   width: 30rem; }
 
 .journal-posts .entry-title {
-  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 1.3rem; }
 
 .journal-posts .read-button {
@@ -869,7 +878,7 @@ a {
   color: black;
   border: 1px solid black; }
   .journal-posts .read-button:hover {
-    color: white;
+    color: #ffff;
     background-color: #248A83; }
 
 .about-hero {
@@ -888,15 +897,15 @@ a {
   background-size: cover, cover;
   background-position: bottom; }
   .about-hero .about-title {
-    color: white;
+    color: #ffff;
     font-size: 5rem;
-    font-family: 'Open Sans',Arial, Helvetica, sans-serif;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
     text-transform: uppercase; }
 
 .entry-content {
   margin: 10rem;
   font-size: 2rem;
-  font-family: 'Open Sans',Arial, Helvetica, sans-serif; }
+  font-family: "Open Sans", Arial, Helvetica, sans-serif; }
   .entry-content h1 {
     font-size: 5rem;
     text-align: center; }
