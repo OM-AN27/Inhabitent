@@ -271,15 +271,102 @@ iframe {
 
 //JOURNAL 
 
-.journal-entry-header h1 {
-	padding: 15px;
-	color: white;
-	text-transform: uppercase;
-	width: 40%;
-	background-color: $color__my-main-text;
 
+.journal-site-main {
+
+	margin: 30px 80px;
+
+	img {
+		width: 65%;
+	}
+
+	p {
+		font-size: 1.6rem;
+	}
+
+
+	h1 {
+		padding: 15px;
+		color: white;
+		text-transform: uppercase;
+		width: 40%;
+		background-color: $color__my-main-text;
+	}
+
+	.entry-content {
+		margin: 0;
+		width: 58%;
+	}
+
+}
+
+// JOURNAL SINGLES 
+
+.journal-single-site-main {
+
+	margin: 30px 80px;
+
+	img {
+		width: 65%;
+	}
+
+	p {
+		font-size: 1.6rem;
+	}
+
+
+	h1 {
+		position: absolute;
+		top:140px;
+		padding: 15px;
+		color: white;
+		text-transform: uppercase;
+		width: 40%;
+		background-color: $color__my-main-text;
+	}
+
+	.entry-content {
+		margin: 0;
+		width: 65%;
+	}
+
+	.entry-meta {
+		position: absolute;
+		top: 583px;
+		left: 456px;
+		width: 27%;
+		padding: 5px 8px;
+		color:white;
+		background-color: $color__my-main-text;
+	
+	}
+
+
+}
+
+
+// COMMETS 
+
+
+.comments-title {
+	font-size: 4rem;
+}
+
+.comment-list {
+	padding: 0;
+	margin: 0;
+}
+
+.comment-body {
+	display: flex;
+}
+
+.fn {
+	font-weight: 800;
 	
 }
+
+
 
 
 

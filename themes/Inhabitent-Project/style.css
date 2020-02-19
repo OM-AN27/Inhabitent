@@ -920,9 +920,59 @@ iframe {
   width: 80%;
   height: 10%; }
 
-.journal-entry-header h1 {
-  padding: 15px;
-  color: white;
-  text-transform: uppercase;
-  width: 40%;
-  background-color: #248A83; }
+.journal-site-main {
+  margin: 30px 80px; }
+  .journal-site-main img {
+    width: 65%; }
+  .journal-site-main p {
+    font-size: 1.6rem; }
+  .journal-site-main h1 {
+    padding: 15px;
+    color: white;
+    text-transform: uppercase;
+    width: 40%;
+    background-color: #248A83; }
+  .journal-site-main .entry-content {
+    margin: 0;
+    width: 58%; }
+
+.journal-single-site-main {
+  margin: 30px 80px; }
+  .journal-single-site-main img {
+    width: 65%; }
+  .journal-single-site-main p {
+    font-size: 1.6rem; }
+  .journal-single-site-main h1 {
+    position: absolute;
+    top: 140px;
+    padding: 15px;
+    color: white;
+    text-transform: uppercase;
+    width: 40%;
+    background-color: #248A83; }
+  .journal-single-site-main .entry-content {
+    margin: 0;
+    width: 65%; }
+  .journal-single-site-main .entry-meta {
+    position: absolute;
+    top: 583px;
+    left: 456px;
+    width: 27%;
+    padding: 5px 8px;
+    color: white;
+    background-color: #248A83; }
+
+.comments-title {
+  font-size: 4rem; }
+
+.comment-list {
+  padding: 0;
+  margin: 0; }
+
+.comment-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.fn {
+  font-weight: 800; }

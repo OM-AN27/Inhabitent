@@ -14,3 +14,11 @@ Learned about how to use and work around wordpress code wich main language is PH
 - Git Bash
 
 
+##INSTALL
+
+* Clone the git repository — `git clone
+  https://github.com/OM-AN27/Instanews.git`  
+
+
+* Run `gulp` on the git bash 
+
