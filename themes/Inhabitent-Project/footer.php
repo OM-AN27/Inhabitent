@@ -26,7 +26,7 @@
 	<p class='footer-hours'><strong>Sunday:</strong> closed.</p>
 </div>
 <img class='logo-footer' src=<?php echo get_stylesheet_directory_uri() . '/images/logos/inhabitent-logo-text.svg'; ?> alt='footer-logo'>
-<div>
+<div class='copy-right'>
 <p class='copyright-text'>COPYRIGHT © 2019 Inhabitent </p>
 </div>
 				</div>

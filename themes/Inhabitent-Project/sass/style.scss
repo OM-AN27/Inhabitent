@@ -100,9 +100,6 @@ a {
 	display: flex;
 	justify-content: center;
 
-	li {
-		border: 
-	}
 
 }
 
@@ -272,7 +269,19 @@ iframe {
 
 }
 
-//SHOP
+//JOURNAL 
+
+.journal-entry-header h1 {
+	padding: 15px;
+	color: white;
+	text-transform: uppercase;
+	width: 40%;
+	background-color: $color__my-main-text;
+
+	
+}
+
+
 
 
 

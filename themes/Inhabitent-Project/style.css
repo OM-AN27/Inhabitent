@@ -691,6 +691,9 @@ i {
     color: #ffff; }
   .footer-container .footer-contact {
     margin: 2rem; }
+  .footer-container .copy-right {
+    grid-column: 2;
+    text-align: center; }
   .footer-container .copyright-text {
     color: #a1a1a1; }
   .footer-container .logo-footer {
@@ -916,3 +919,10 @@ a {
 iframe {
   width: 80%;
   height: 10%; }
+
+.journal-entry-header h1 {
+  padding: 15px;
+  color: white;
+  text-transform: uppercase;
+  width: 40%;
+  background-color: #248A83; }

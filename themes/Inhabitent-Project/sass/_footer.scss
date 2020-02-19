@@ -32,6 +32,11 @@ i {
     }
 
 
+    .copy-right {
+        grid-column: 2;
+        text-align: center;
+    }
+ 
     .copyright-text {
         color: $color__my-border;
     }
