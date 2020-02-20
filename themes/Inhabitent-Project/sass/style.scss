@@ -96,6 +96,7 @@ fieldset {
 	border: none;
 }
 
+
 .wpcf7-form-control.wpcf7-submit {
 	border:none;
 	text-shadow: none;
@@ -172,7 +173,7 @@ fieldset {
 	}
 
 	.item-description {
-		font-family: 'Merriweather',Arial, Helvetica,$font__main;
+		font-family:$font__main;
 		font-size: 1.3rem;
 		text-align: center;
 		color:black;
@@ -222,7 +223,7 @@ fieldset {
 	}
 
 	span {
-		font-size: 1.1rem;;
+		font-size: 1.1rem;
 	}
 	
 	.entry-image{
@@ -298,6 +299,10 @@ fieldset {
 
 	margin: 30px 80px;
 
+	h1 {
+		text-transform: uppercase;
+	}
+
 	h2 {
 		font-size: 3rem;
 		font-weight: 600;
@@ -308,7 +313,6 @@ fieldset {
 	h3 {
 		font-size: 3rem;
 		font-weight: 600;
-		// text-align: left;
 		text-transform: uppercase;
 
 	}
@@ -567,7 +571,7 @@ textarea {
 	}
 }
 
-// SHOP 
+// SHOP  AND SINGLES
 
 .products-site-main {
 	
@@ -581,6 +585,37 @@ textarea {
 		}
 	}
 
+}
+
+.product-single-site-main {
+	display: flex;
+	margin: 80px;
+
+	img {
+		height: 60%;
+	}
+
+	h1 {
+		text-transform: uppercase;
+		color: #d99054;
+		margin: 0px 20px;
+	}
+
+	.entry-content {
+		margin: 0;
+		color: $color__my-border;
+
+		p {
+			font-size: 1.8rem;
+			margin: 0;
+			padding: 0px 20px;
+		}
+
+	}
+
+	.entry-meta {
+		display: none;
+	}
 }
 
 // 404 NOT FOUND 
@@ -625,6 +660,44 @@ textarea {
 	}
 
 
+}
+
+// SEARCH  
+
+.search-grid {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+
+}
+
+.search-site-main {
+
+	margin: 80px;
+
+	a {
+		text-transform: uppercase;
+		color:$color__my-main-text
+	}
+
+	.page-title {
+		text-transform: uppercase;
+		font-size: 4rem;
+	}
+
+}
+
+.search-pagination {
+	span {
+		color: $color__my-text;
+		background-color: $color__my-main-text;
+		padding: 8px;
+	}
+
+	a {
+		color: $color__my-text;
+		background-color: $color__my-main-text;
+		padding: 8px;
+	}
 }
 
 

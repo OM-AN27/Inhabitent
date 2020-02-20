@@ -234,7 +234,7 @@ input,
 select,
 textarea {
   color: #404040;
-  font-family: sans-serif;
+  font-family: "Merriweather", Arial, Helvetica, sans-serif;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5; }
@@ -951,6 +951,8 @@ fieldset {
 
 .find-us-site-main {
   margin: 30px 80px; }
+  .find-us-site-main h1 {
+    text-transform: uppercase; }
   .find-us-site-main h2 {
     font-size: 3rem;
     font-weight: 600;
@@ -1128,6 +1130,27 @@ textarea {
 .products-site-main .entry-content p {
   display: none; }
 
+.product-single-site-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 80px; }
+  .product-single-site-main img {
+    height: 60%; }
+  .product-single-site-main h1 {
+    text-transform: uppercase;
+    color: #d99054;
+    margin: 0px 20px; }
+  .product-single-site-main .entry-content {
+    margin: 0;
+    color: #a1a1a1; }
+    .product-single-site-main .entry-content p {
+      font-size: 1.8rem;
+      margin: 0;
+      padding: 0px 20px; }
+  .product-single-site-main .entry-meta {
+    display: none; }
+
 .error-grid {
   display: grid;
   grid-template-columns: 3fr 1fr; }
@@ -1155,3 +1178,26 @@ textarea {
   .error-site-main select#archives-dropdown--1 {
     font-size: 2rem;
     color: #a1a1a1; }
+
+.search-grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr; }
+
+.search-site-main {
+  margin: 80px; }
+  .search-site-main a {
+    text-transform: uppercase;
+    color: #248A83; }
+  .search-site-main .page-title {
+    text-transform: uppercase;
+    font-size: 4rem; }
+
+.search-pagination span {
+  color: #ffff;
+  background-color: #248A83;
+  padding: 8px; }
+
+.search-pagination a {
+  color: #ffff;
+  background-color: #248A83;
+  padding: 8px; }

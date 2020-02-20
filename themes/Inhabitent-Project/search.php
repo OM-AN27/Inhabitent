@@ -7,8 +7,10 @@
 
 get_header(); ?>
 
+<div class='search-grid'>
+
 	<section id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+		<main id="main" class="search-site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>
 
@@ -35,4 +37,5 @@ get_header(); ?>
 	</section><!-- #primary -->
 
 <?php get_sidebar(); ?>
+		</div>
 <?php get_footer(); ?>
