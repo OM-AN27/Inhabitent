@@ -966,7 +966,7 @@ input[type="email"], input[type="password"], input[type="search"], input[type="t
     width: 70%; }
 
 .journal-site-main {
-  margin: 30px 80px; }
+  margin-left: 10%; }
   .journal-site-main img {
     width: 65%; }
   .journal-site-main p {
@@ -985,25 +985,24 @@ input[type="email"], input[type="password"], input[type="search"], input[type="t
 .journal-single-site-main {
   margin: 30px 80px; }
   .journal-single-site-main img {
-    width: 65%; }
+    width: 85%; }
   .journal-single-site-main p {
     font-size: 1.6rem; }
   .journal-single-site-main h1 {
     position: absolute;
-    top: 140px;
     padding: 15px;
     color: #ffff;
     text-transform: uppercase;
-    width: 40%;
+    width: 38%;
     background-color: #248A83; }
   .journal-single-site-main .entry-content {
     margin: 0;
-    width: 65%; }
+    width: 85%; }
   .journal-single-site-main .entry-meta {
     position: absolute;
-    top: 529px;
-    left: 363px;
-    width: 31%;
+    top: 575px;
+    left: 395px;
+    width: 28%;
     padding: 5px 8px;
     color: #ffff;
     background-color: #248A83; }
@@ -1068,7 +1067,25 @@ textarea {
 .widget-area {
   border-left: 1px solid #a1a1a1;
   padding: 20px; }
+  .widget-area .widget-title {
+    letter-spacing: 0.1rem;
+    text-transform: uppercase; }
+  .widget-area span {
+    font-weight: 700; }
+  .widget-area ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0;
+    padding: 0; }
+  .widget-area ul li a {
+    color: #248A83; }
 
 .find-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr; }
+
+.journal-single-grid {
   display: grid;
   grid-template-columns: 3fr 1fr; }

@@ -7,6 +7,8 @@
 
 get_header(); ?>
 
+ <div class='journal-single-grid'>
+
 	<div id="primary" class="content-area">
 		<main id="main" class="journal-single-site-main" role="main">
 
@@ -28,5 +30,6 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php // get_sidebar(); ?>
+<?php get_sidebar(); ?>
+			</div> <!--grid container -->
 <?php get_footer(); ?>

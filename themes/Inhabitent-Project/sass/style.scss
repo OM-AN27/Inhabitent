@@ -329,7 +329,7 @@ input[type="email"], input[type="password"], input[type="search"], input[type="t
 
 .journal-site-main {
 
-	margin: 30px 80px;
+	margin-left: 10%;
 
 	img {
 		width: 65%;
@@ -364,7 +364,7 @@ input[type="email"], input[type="password"], input[type="search"], input[type="t
 	margin: 30px 80px;
 
 	img {
-		width: 65%;
+		width: 85%;
 	}
 
 	p {
@@ -374,24 +374,23 @@ input[type="email"], input[type="password"], input[type="search"], input[type="t
 
 	h1 {
 		position: absolute;
-		top:140px;
 		padding: 15px;
 		color: $color__my-text;
 		text-transform: uppercase;
-		width: 40%;
+		width: 38%;
 		background-color: $color__my-main-text;
 	}
 
 	.entry-content {
 		margin: 0;
-		width: 65%;
+		width: 85%;
 	}
 
 	.entry-meta {
 		position: absolute;
-		top: 529px;
-		left: 363px;
-		width: 31%;
+		top: 575px;
+		left: 395px;
+		width: 28%;
 		padding: 5px 8px;
 		color:$color__my-text;
 		background-color: $color__my-main-text;
@@ -424,9 +423,6 @@ input[type="email"], input[type="password"], input[type="search"], input[type="t
 	
 }
 
-time {
-	// color:$color__my-border;
-}
 
 .comment-reply-title {
 	margin: 15px 0px;
@@ -486,9 +482,35 @@ textarea {
 .widget-area {
 	border-left: 1px solid $color__my-border;
 	padding: 20px;
+
+	.widget-title {
+		letter-spacing: 0.1rem;
+		text-transform: uppercase;
+
+	}
+
+	span {
+		font-weight: 700;
+	} 
+	ul {
+		flex-direction: column;
+		margin: 0;
+		padding: 0;
+
+	}
+
+	ul li  a{
+		color: $color__my-main-text;
+	}
 }
 
 .find-container {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+}
+
+
+.journal-single-grid {
 	display: grid;
 	grid-template-columns: 3fr 1fr;
 }
