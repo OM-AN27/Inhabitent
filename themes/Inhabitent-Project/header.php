@@ -30,7 +30,8 @@
 			<a href='http://localhost/wordpress/journal/'><li>journal</li></a>
 			<a href='http://localhost/wordpress/about/'><li>about</li></a>
 			<a href='http://localhost/wordpress/fin-us/'><li>find us</li></a>
-			<i class="fa fa-search"></i>
+			<!-- <i class="fa fa-search"></i> -->
+			<?php get_search_form(); ?>
 		</ul>
 </div>
 	</nav>

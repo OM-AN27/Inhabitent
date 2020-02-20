@@ -84,6 +84,32 @@ a {
 
 }
 
+input[type="email"], input[type="password"], input[type="search"], input[type="text"], input[type="url"] {
+
+	padding: 10px;
+	background-color: rgb(247, 244, 244);
+	width: 50%;
+
+}
+
+.wpcf7-form-control.wpcf7-submit {
+	border:none;
+	text-shadow: none;
+	box-shadow: none;
+	font-size: 2rem;
+	text-transform: uppercase;
+	border-radius: 0;
+	color:$color__my-text;
+	padding:10px 15px;
+	background-color: $color__my-main-text;
+
+	&:hover {
+		box-shadow: none;
+		background-color: rgb(32, 110, 105);
+	}
+
+}
+
 
 .hero-image {
 	height: 100vh;
@@ -218,6 +244,11 @@ a {
 
 }
 
+.journal-grid-container {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+}
+
 // ABOUT PAGE
 
 
@@ -259,13 +290,37 @@ a {
 
 // FIND US 
 
+.find-us-site-main {
 
-	
-iframe {
+	margin: 30px 80px;
 
-	width:80%;
-	height:10%;
+	h2 {
+		font-size: 3rem;
+		font-weight: 600;
+		text-align: left;
+		text-transform: uppercase;
+	}
 
+	h3 {
+		font-size: 3rem;
+		font-weight: 600;
+		// text-align: left;
+		text-transform: uppercase;
+
+	}
+
+	p {
+		font-size: 2rem;
+	}
+
+	iframe {
+		width:100%;
+	}
+
+	.entry-content {
+		margin: 0;
+		width: 70%;
+	}
 
 }
 
@@ -286,8 +341,10 @@ iframe {
 
 
 	h1 {
+		position: absolute
+		;
 		padding: 15px;
-		color: white;
+		color: $color__my-text;
 		text-transform: uppercase;
 		width: 40%;
 		background-color: $color__my-main-text;
@@ -319,7 +376,7 @@ iframe {
 		position: absolute;
 		top:140px;
 		padding: 15px;
-		color: white;
+		color: $color__my-text;
 		text-transform: uppercase;
 		width: 40%;
 		background-color: $color__my-main-text;
@@ -332,11 +389,11 @@ iframe {
 
 	.entry-meta {
 		position: absolute;
-		top: 583px;
-		left: 456px;
-		width: 27%;
+		top: 529px;
+		left: 363px;
+		width: 31%;
 		padding: 5px 8px;
-		color:white;
+		color:$color__my-text;
 		background-color: $color__my-main-text;
 	
 	}
@@ -350,6 +407,7 @@ iframe {
 
 .comments-title {
 	font-size: 4rem;
+	text-transform: uppercase;
 }
 
 .comment-list {
@@ -365,6 +423,76 @@ iframe {
 	font-weight: 800;
 	
 }
+
+time {
+	// color:$color__my-border;
+}
+
+.comment-reply-title {
+	margin: 15px 0px;
+	font-size: 3rem;
+	text-transform: uppercase;
+}
+
+.comment-reply-link {
+	color: $color__my-main-text;
+
+}
+
+.logged-in-as {
+	margin: 0;
+	a {
+	color: $color__text-main;
+	}
+}
+
+label {
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+textarea {
+	margin: 10px 0px;
+	background-color: rgb(247, 244, 244);
+}
+
+#submit{
+	border:none;
+	text-shadow: none;
+	box-shadow: none;
+	font-size: 2rem;
+	border-radius: 0;
+	color:$color__my-text;
+	padding:10px 15px;
+	background-color: $color__my-main-text;
+}
+
+.search-form {
+
+	.search-animation {
+		width: 0;
+		opacity: 0;
+		
+	}
+	
+}
+.search-field {
+	opacity: 1;
+	transition: all 2s ease;
+}
+
+// SIDEBAR 
+
+.widget-area {
+	border-left: 1px solid $color__my-border;
+	padding: 20px;
+}
+
+.find-container {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+}
+
 
 
 

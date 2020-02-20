@@ -7,6 +7,7 @@
 
 get_header(); ?>
 
+<div class='sidebar'>
 <div class='journal-grid-container'>
 	<div id="primary" class="journal-content-area">
 		<main id="main" class="journal-site-main" role="main">
@@ -14,10 +15,6 @@ get_header(); ?>
 		
 		<?php while ( have_posts() ) : the_post(); ?>
 		<header class="journal-entry-header">
-                            <?php if ( has_post_thumbnail() ) : ?>
-                                <?php the_post_thumbnail( 'large' ); ?>
-                            <?php endif; ?>
-
 					
 					<?php get_template_part( 'template-parts/content', 'page' ); ?>
 

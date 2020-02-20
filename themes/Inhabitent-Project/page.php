@@ -7,11 +7,11 @@
 
 get_header(); ?>
 
-<h1 class='journal-title-1'>FIND US</h1>
-<div class='fin-container'>
+
+<div class='find-container'>
 
 	<div id="primary" class="content-area">
-	<main id="main" class="site-main" role="main">
+	<main id="main" class="find-us-site-main" role="main">
 
 		
 		<?php while ( have_posts() ) : the_post(); ?>
@@ -22,6 +22,8 @@ get_header(); ?>
 		
 	</main><!-- #main -->
 </div>
+
+<?php get_sidebar();?>
 
 
 
