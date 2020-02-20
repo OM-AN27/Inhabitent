@@ -782,6 +782,9 @@ input[type="email"], input[type="password"], input[type="search"], input[type="t
   background-color: #f7f4f4;
   width: 50%; }
 
+fieldset {
+  border: none; }
+
 .wpcf7-form-control.wpcf7-submit {
   border: none;
   text-shadow: none;
@@ -1044,6 +1047,13 @@ textarea {
   margin: 10px 0px;
   background-color: #f7f4f4; }
 
+.search-submit {
+  border: none;
+  background-color: black;
+  text-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none; }
+
 #submit {
   border: none;
   text-shadow: none;
@@ -1089,3 +1099,59 @@ textarea {
 .journal-single-grid {
   display: grid;
   grid-template-columns: 3fr 1fr; }
+
+.archive-grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr; }
+
+.archive-site-main {
+  margin: 30px 80px; }
+  .archive-site-main img {
+    width: 85%; }
+  .archive-site-main p {
+    font-size: 1.6rem; }
+  .archive-site-main .entry-content {
+    margin: 0;
+    width: 85%; }
+  .archive-site-main .entry-meta {
+    position: absolute;
+    top: 575px;
+    left: 395px;
+    width: 28%;
+    padding: 5px 8px;
+    color: #ffff;
+    background-color: #248A83; }
+
+.products-site-main img {
+  width: 30%; }
+
+.products-site-main .entry-content p {
+  display: none; }
+
+.error-grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr; }
+
+.error-site-main {
+  margin-left: 30px; }
+  .error-site-main h1 {
+    font-size: 4rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase; }
+  .error-site-main h2 {
+    letter-spacing: 0.1rem;
+    text-transform: uppercase; }
+  .error-site-main p {
+    font-size: 2rem; }
+  .error-site-main ul {
+    margin: 0;
+    padding: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .error-site-main a {
+    color: #248A83; }
+  .error-site-main select#archives-dropdown--1 {
+    font-size: 2rem;
+    color: #a1a1a1; }

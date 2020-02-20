@@ -92,6 +92,10 @@ input[type="email"], input[type="password"], input[type="search"], input[type="t
 
 }
 
+fieldset {
+	border: none;
+}
+
 .wpcf7-form-control.wpcf7-submit {
 	border:none;
 	text-shadow: none;
@@ -452,6 +456,16 @@ textarea {
 	background-color: rgb(247, 244, 244);
 }
 
+
+// SEARCH FORM 
+
+.search-submit {
+	border: none;
+	background-color: black;
+	text-shadow: none;
+	box-shadow: none;
+}
+
 #submit{
 	border:none;
 	text-shadow: none;
@@ -514,6 +528,105 @@ textarea {
 	display: grid;
 	grid-template-columns: 3fr 1fr;
 }
+
+
+// ARCHIVE 
+
+.archive-grid {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+
+}
+
+.archive-site-main {
+
+	margin: 30px 80px;
+
+	img {
+		width: 85%;
+	}
+
+	p {
+		font-size: 1.6rem;
+	}
+
+	.entry-content {
+		margin: 0;
+		width: 85%;
+	}
+
+	.entry-meta {
+		position: absolute;
+		top: 575px;
+		left: 395px;
+		width: 28%;
+		padding: 5px 8px;
+		color:$color__my-text;
+		background-color: $color__my-main-text;
+	
+	}
+}
+
+// SHOP 
+
+.products-site-main {
+	
+	img {
+		width: 30%;
+	}
+
+	.entry-content {
+		p {
+			display: none;
+		}
+	}
+
+}
+
+// 404 NOT FOUND 
+
+.error-grid {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+}
+
+.error-site-main {
+
+	margin-left: 30px;
+
+	h1 {
+		font-size: 4rem;
+		letter-spacing: 0.1rem;
+		text-transform: uppercase;
+	}
+
+	h2 {
+		letter-spacing: 0.1rem;
+		text-transform: uppercase;
+	}
+
+	p {
+		font-size: 2rem;
+	}
+
+	ul {
+		margin: 0;
+		padding:0;
+		flex-direction: column;
+	}
+
+	a {
+		color: $color__my-main-text;
+	}
+
+	select#archives-dropdown--1 {
+		font-size: 2rem;
+		color: $color__my-border;
+	}
+
+
+}
+
 
 
 

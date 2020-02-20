@@ -8,9 +8,9 @@
  */
 
 get_header(); ?>
-
+	<div class='error-grid'>
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+		<main id="main" class="error-site-main" role="main">
 
 			<section class="error-404 not-found">
 				<header class="page-header">
@@ -51,5 +51,6 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
+ <?php  get_sidebar();?>
+							</div>
 <?php get_footer(); ?>
