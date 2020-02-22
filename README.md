@@ -2,7 +2,7 @@
 
 A project using Wordpress code and servers, to create and elaborate a website wich contains a blog, a shop area and info about the camping website.
 
-![inhabitent-website](inhabitent.png)
+![inhabitent_website](inhabitent.png)
 
 ## Learnings
 
